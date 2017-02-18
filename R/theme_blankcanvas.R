@@ -17,7 +17,7 @@ theme_blankcanvas <- function(bg_col = "transparent") {
         panel.border = element_blank(),
         panel.grid = element_blank(),
         plot.background = element_rect(fill = bg_col, colour = bg_col),
-        plot.margin = unit(c(0, 0, -1, -1), "mm"), # top, right, bottom, left
+        plot.margin = unit(c(0, 0, -2, -1), "mm"), # top, right, bottom, left
         strip.background = element_blank(),
         strip.text = element_blank())
 }
