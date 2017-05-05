@@ -4,10 +4,12 @@
 \alias{theme_blankcanvas}
 \title{Blank Canvas Theme}
 \usage{
-theme_blankcanvas(bg_col = "transparent")
+theme_blankcanvas(bg_col = "transparent", margin_cm = 2.5)
 }
 \arguments{
 \item{bg_col}{Plot background (and border) colour. Defaults to "transparent".}
+
+\item{margin_cm}{Plot margin in cm}
 }
 \description{
 An empty theme similar to theme_void() but with a few subtle differences.
